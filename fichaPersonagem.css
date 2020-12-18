@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+#divNomeIdade{
+    width: 10%;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+#divAtributos{
+    width: 14%;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+#divForca{
+    width: 10%;
+    margin: auto;
+}
+
+h4{
+    text-align: center;
+}
+
+#divVida{
+    width: 10%;
+    margin: auto;
+}
+
+button{
+    margin: auto;
+}
+
+#divBotao{
+    text-align: center;
+}
+
+#divFicha{
+    text-align: center;
+}
+
+#divAviso{
+    text-align: center;
+}

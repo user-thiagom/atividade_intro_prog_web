@@ -1,0 +1,93 @@
+#statusPersonagem{
+    background-color: cornsilk;
+    width: 39%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    float: left;
+}
+
+#inimigo{
+    background-color: gainsboro;
+    width: 39%;
+    height: 233px;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    float: right;
+}
+
+#dado{
+    background-color: darkcyan;
+    width: 20%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#acoes{
+    background-color: darkcyan;
+    width: 29%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.btnacao{
+    margin-top: 6px;
+}
+
+#divMensagem{
+    background-color: darkcyan;
+    width: 40%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    color: white;
+}
+
+button{
+    border-top: 1px solid #2085c4;
+    background: #1b77b5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b620d4), to(#1b77b5));
+    background: -webkit-linear-gradient(top, #b620d4, #1b77b5);
+    background: -moz-linear-gradient(top, #b620d4, #1b77b5);
+    background: -ms-linear-gradient(top, #b620d4, #1b77b5);
+    background: -o-linear-gradient(top, #b620d4, #1b77b5);
+    padding: 7.5px 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+

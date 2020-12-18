@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha</title>
+    <link rel="stylesheet" href="batalha.css" />
+    <script src="codigoBatalhaJS.js" defer></script>
+</head>
+<body>
+    <div id="statusPersonagem">
+        <h2>Meu Personagem</h2>
+        <h3>Nome: <i id="nome"></i></h3>
+        <h3>Idade: <i id="idade"></i></h3>
+        <h3>Classe: <i id="classe"></i></h3>
+        <h3>HP: <i id="hpAtual"></i> / <i id="hpTotal"></i></h3>
+    </div>
+
+    <div id="inimigo">
+        <h2>Inimigo</h2>
+        <h3>Nome: <i id="nomeMonstro"></i></h3>
+        <h3>Vida: <i id="vidaMonstroAtual"></i> / <i id="vidaMonstro"></i></h3>
+    </div>
+
+    <div id="dado">
+        <img src="http://roll.diceapi.com/images/poorly-drawn/d6/1.png" alt="dado" id="dadoImg">
+        <h3 id="dadoNumero">Gire o dado uma vez!</h3>
+        <button type="submit" onclick="girarDado()" id="btn-girar">Girar Dado</button>
+        <button type="submit" onclick="visualizarPersonagem()">Visualizar Personagem</button>
+    </div>
+
+    <div id="acoes" style="display: none;">
+        <button type="submit" onclick="hab1()" id="hab1" class="btnacao"></button>
+        <button type="submit" onclick="hab2()" id="hab2" class="btnacao"></button>
+        <button type="submit" onclick="hab3()" id="hab3" class="btnacao"></button>
+        <button type="submit" onclick="itemDeCura()" id="item" class="btnacao">Itens de Cura: 4</button>
+    </div>
+
+    
+
+    <div id="divMensagem">
+        <h3>Ações</h3>
+        <h4 id="mensagem"></h4>
+        <h4 id="mensagem-morte"></h4>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+#div{
+    background-color: cornflowerblue;
+    width: 20%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#habilidades{
+    text-align: left;
+}
+
+
+h3{
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    text-align: left;
+}
+
+#divAtributos{
+    background-color: darkcyan;
+    width: 20%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#divInfo{
+    background-color: lightblue;
+    width: 20%;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+button{
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0c7ac4), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #0c7ac4, #65a9d7);
+    background: -moz-linear-gradient(top, #0c7ac4, #65a9d7);
+    background: -ms-linear-gradient(top, #0c7ac4, #65a9d7);
+    background: -o-linear-gradient(top, #0c7ac4, #65a9d7);
+    padding: 7.5px 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}

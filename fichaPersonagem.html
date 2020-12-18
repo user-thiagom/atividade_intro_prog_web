@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha do personagem</title>
+    <script src="codigoFichaJS.js" defer ></script>
+    <link rel="stylesheet" href="fichaPersonagem.css" />
+    
+</head>
+<body>
+
+    <div id="divAviso" style="display: none;">
+        <h1>Seu personagem já foi criado!</h1>
+        <button type="submit" onclick="irPersonagem()">Clique aqui para ir até ele</button>
+    </div>
+
+    <div id="divFicha" style="display: none;">
+        <h1>Por favor preencha a ficha do seu personagem</h1>
+
+        <div>
+            <div id="divNomeIdade">
+                <label for="nome">Nome do Personagem</label><br>
+                <input type="text" id="nome"><br>
+                <label for="idade">Idade</label><br>
+                <input type="number" id="idade"><br>
+            </div>
+
+            <h2>Selecione a classe do personagem</h2>
+            <div id="divAtributos">
+                <input type="radio" name="classe" value="ladino" class="classeP">Ladino
+                <input type="radio" name="classe" value="barbaro" class="classeP">Barbaro
+                <input type="radio" name="classe" value="paladino" class="classeP">Paladino
+                <br>
+            </div>
+
+            <h2>Selecione a classe do personagem</h2><br>
+            <h3>Pontos restantes: <i>6</i></h3><br>
+            
+            <h4>Força</h4>
+            <div id="divForca">
+                <input type="radio" name="atributo_forca" value="1">1
+                <input type="radio" name="atributo_forca" value="2">2
+                <input type="radio" name="atributo_forca" value="3">3
+                <input type="radio" name="atributo_forca" value="4">4
+                <input type="radio" name="atributo_forca" value="5">5
+            </div>
+
+            <h4>Vida</h4>
+            <div id="divVida">
+                <input type="radio" name="atributo_vida" value="1">1
+                <input type="radio" name="atributo_vida" value="2">2
+                <input type="radio" name="atributo_vida" value="3">3
+                <input type="radio" name="atributo_vida" value="4">4
+                <input type="radio" name="atributo_vida" value="5">5
+            </div>
+            <div id="divBotao">
+                    <br><button type="submit" onclick="criarPersonagem()">Criar Personagem</button> 
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

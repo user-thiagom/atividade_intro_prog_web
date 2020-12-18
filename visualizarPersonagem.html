@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizualizar Personagem</title>
+    <link rel="stylesheet" href="visualizarPersonagem.css" />
+    <script src="codigoVisualizarJS.js" defer></script>
+</head>
+<body>
+    <h1>Seu Personagem</h1>
+    <div id="divInfo">
+    <h2>Informações Pessoais</h2>
+        <h3>Nome: <i id="nome"></i></h3>
+        <h3>Idade: <i id="idade"></i></h3>
+        <h3>Classe: <i id="classe"></i></h3>
+    </div>
+    <div id="divAtributos">
+        <h2>Atributos</h2>
+        <h3>Forca: <i id="forca"></i></h3>
+        <h3>Vida: <i id="vida"></i></h3>
+        <h3>HP: <i id="hp"></i></h3>
+    </div>
+    <div id="div">
+        <h2>Habilidades</h2>
+        <div id="habilidades">
+
+        </div>
+    </div>
+
+    <div id="divBtn">
+        <button type="submit" onclick="IrABatalha()">Ir para a batalha</button>
+        <button type="submit" onclick="criarNovoPersonagem()">Criar Novo Personagem</button>
+    </div>
+</body>
+</html>
